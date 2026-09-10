@@ -1,7 +1,7 @@
 # LeetCode Account & Submission Info
 
 - **LeetCode Profile**: [https://leetcode.com/u/ahmedseyam01/](https://leetcode.com/u/ahmedseyam01/)
-- **Submission Link**: [https://leetcode.com/submissions/detail/2136512893/](https://leetcode.com/submissions/detail/2136512893/)
+- **Submission Link**: [https://leetcode.com/submissions/detail/2137611818/](https://leetcode.com/submissions/detail/2137611818/)
 - **Submission Status**: Accepted ✅
 
 ---
