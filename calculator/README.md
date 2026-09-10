@@ -1,55 +1,53 @@
-# C# Console Calculator Application
+# JavaScript Calculator Application
 
-A robust, interactive C# Console Calculator developed as part of **Assignment 02 (Backend .NET Track)**.
+A sleek, interactive **JavaScript Calculator** built using **HTML5, CSS3, and JavaScript (ES6)** and runnable via Node.js CLI or browser interface.
+
+Developed by **Ahmed Seyam** (`@ahmedseyam01`) as part of **Assignment 02 (Backend .NET Track)**.
 
 ## Features
-- **Arithmetic Operations**: Supports Addition (`+`), Subtraction (`-`), Multiplication (`*`), and Division (`/`).
-- **Input Validation**: Gracefully handles non-numeric input without crashing and prompts the user to try again.
-- **Division by Zero Protection**: Guards against division by zero and outputs a clear error message.
-- **Interactive Calculation Loop**: Allows performing multiple calculations sequentially without needing to restart the application.
+- **Arithmetic Operations**: Addition (`+`), Subtraction (`-`), Multiplication (`*`), Division (`/`), and Percentage (`%`).
+- **Input Validation**: Gracefully handles non-numeric values and invalid key sequences.
+- **Division by Zero Protection**: Prevents division by zero with a clean error notification.
+- **Continuous Calculation Loop**: Supports multiple calculations consecutively.
+- **Keyboard Shortcuts**: Supports physical keyboard inputs (`0-9`, `.`, `+`, `-`, `*`, `/`, `Enter`, `Backspace`, `Escape`).
 
 ## Technologies Used
-- **Language**: C# (.NET 9 SDK)
-- **Framework**: Console Application
+- **JavaScript (ES6+)**: Logic & Node CLI execution
+- **HTML5 & CSS3**: Glassmorphism web user interface
+- **Node.js**: CLI runner support
 
 ## Project Structure
 ```text
 calculator/
-├── Program.cs           # Main application logic & UI loop
-├── CalculatorApp.csproj # .NET project file
-├── .gitignore           # Git ignore settings for .NET build artifacts
-└── README.md            # Project documentation
+├── index.html       # Web calculator interface
+├── style.css        # Modern glassmorphism design styles
+├── script.js        # Web calculator DOM logic & event listeners
+├── calculator.js    # Node.js interactive CLI calculator
+└── README.md        # Project documentation
 ```
 
 ## How to Run
 
-1. Ensure you have [.NET SDK](https://dotnet.microsoft.com/download) installed.
-2. Navigate to the `calculator` folder:
-   ```bash
-   cd calculator
-   ```
-3. Run the application using `dotnet`:
-   ```bash
-   dotnet run
-   ```
+### Option 1: In the Browser
+Open `index.html` directly in any web browser or use VS Code Live Server.
 
-## Demonstration / Screenshot
+### Option 2: Via Node.js CLI
+Run the interactive CLI calculator using Node.js:
+```bash
+node calculator.js
+```
+
+## Visual Interface Demonstration
 
 ```text
 ================================================
-           C# CONSOLE CALCULATOR APP            
+          JAVASCRIPT CALCULATOR APP             
       Backend .NET Track - Assignment 02        
 ================================================
 
-------------------------------------------------
-Enter the first number: 45
+Enter the first number: 50
 Enter the second number: 0
 
-Select an operation:
-  [+] Addition
-  [-] Subtraction
-  [*] Multiplication
-  [/] Division
 Choice (+, -, *, /): /
 
 ------------------ RESULT ------------------
@@ -59,21 +57,16 @@ Error: Division by zero is not allowed!
 Would you like to perform another calculation? (y/n): y
 
 ------------------------------------------------
-Enter the first number: 25.5
-Enter the second number: 4
+Enter the first number: 12.5
+Enter the second number: 8
 
-Select an operation:
-  [+] Addition
-  [-] Subtraction
-  [*] Multiplication
-  [/] Division
 Choice (+, -, *, /): *
 
 ------------------ RESULT ------------------
-Result: 25.5 * 4 = 102
+Result: 12.5 * 8 = 100
 --------------------------------------------
 
 Would you like to perform another calculation? (y/n): n
 
-Thank you for using CalculatorApp! Goodbye.
+Thank you for using JavaScript CalculatorApp! Goodbye.
 ```

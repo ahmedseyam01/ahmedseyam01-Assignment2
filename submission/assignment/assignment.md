@@ -11,9 +11,10 @@
 
 ### 01 Calculator Project
 - **GitHub Repository**: [https://github.com/ahmedseyam01/calculator](https://github.com/ahmedseyam01/calculator)
+- **Technology Stack**: JavaScript (ES6+), HTML5, CSS3 & Node.js CLI
 - **Implementations**:
-  1. **C# Console Application** (`.NET 9 SDK`) with input validation, zero-division protection, and continuous calculation loop.
-  2. **Modern Web Calculator** (`HTML5 / CSS3 / Vanilla JS`) with smooth glassmorphism UI and responsive keypad.
+  1. **Web Calculator Interface** (`index.html`, `style.css`, `script.js`) with keyboard support, glassmorphism UI, and input validation.
+  2. **Node.js Interactive CLI App** (`node calculator.js`) supporting addition, subtraction, multiplication, division, zero-division protection, and continuous calculation loops.
 - **Git Branching Strategy**: Built using dedicated feature branches (`feature/basic-calculator`, `feature/input-validation`, `docs/update-readme`) and merged into `main` with clean commit messages (`feat: initialize calculator project`, `fix: handle division by zero`, `docs: add project README`).
 
 ### 02 Fork, SSH & Website Contribution
