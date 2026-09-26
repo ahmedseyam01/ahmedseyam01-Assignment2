@@ -1,0 +1,20 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio / IDE files
+.vs/
+*.user
+*.suo
+*.userossc
+*.sln.docstates
+.idea/
+.vscode/
+
+## Environment & Secrets
+.env
+*.env.*
+*.secret
+*.pem
